@@ -518,7 +518,6 @@ async def update_artist(artist_id: str, input: ArtistCreate):
         "specialties_fr": spec_translations['fr'],
         "years_experience": input.years_experience,
         "image_url": input.image_url,
-        "instagram": input.instagram
     }
     
     result = await db.artists.update_one(
