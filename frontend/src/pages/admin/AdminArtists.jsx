@@ -32,8 +32,7 @@ const AdminArtists = () => {
     bio: '',
     specialties: '',
     years_experience: 0,
-    image_url: '',
-    instagram: ''
+    image_url: ''
   });
 
   useEffect(() => {
