@@ -83,7 +83,7 @@ const HomePage = () => {
   const heroImages = useMemo(() => [
     '/images/slider/slider-1.jpg',
     '/images/slider/slider-2.jpg',
-    'https://images.unsplash.com/photo-1648844421638-0655d00dd5ba',
+    '/images/slider/slider-3.jpg',
   ], []);
 
   const [currentHeroImage, setCurrentHeroImage] = useState(0);
@@ -110,7 +110,7 @@ const HomePage = () => {
     'https://images.unsplash.com/photo-1617472556169-c5547fde3282',
     'https://images.unsplash.com/photo-1571290274554-6a2eaa771e5f',
     'https://images.pexels.com/photos/6429663/pexels-photo-6429663.jpeg',
-    'https://images.unsplash.com/photo-1648844421638-0655d00dd5ba',
+    '/images/slider/slider-3.jpg',
     'https://images.unsplash.com/photo-1648844421727-cde6c4246b13',
     'https://images.unsplash.com/photo-1648844421753-351afd50486a',
   ], []);
