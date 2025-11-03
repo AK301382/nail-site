@@ -39,7 +39,7 @@ const AdminSettings = () => {
       if (!response.ok) throw new Error('Failed to fetch settings');
       const data = await response.json();
       
-      // Load German version for editing
+      // Load settings data
       setFormData({
         phone: data.phone || '',
         email: data.email || '',
