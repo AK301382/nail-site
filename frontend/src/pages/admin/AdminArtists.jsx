@@ -233,15 +233,6 @@ const AdminArtists = () => {
                 />
               </div>
 
-              <div className="space-y-2">
-                <Label htmlFor="instagram">{t('artists.instagram')}</Label>
-                <Input
-                  id="instagram"
-                  value={formData.instagram}
-                  onChange={(e) => setFormData({ ...formData, instagram: e.target.value })}
-                  placeholder="@username"
-                />
-              </div>
             </div>
 
             <ImageUploader
