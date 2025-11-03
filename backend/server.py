@@ -96,7 +96,6 @@ class Artist(BaseModel):
     specialties_fr: str
     years_experience: int
     image_url: str
-    instagram: Optional[str] = None
 
 class ArtistCreate(BaseModel):
     """Admin only needs to provide German text"""
@@ -105,7 +104,6 @@ class ArtistCreate(BaseModel):
     specialties: str  # German
     years_experience: int
     image_url: str
-    instagram: Optional[str] = None
 
 class GalleryItem(BaseModel):
     model_config = ConfigDict(extra="ignore")
