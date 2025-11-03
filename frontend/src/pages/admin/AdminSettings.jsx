@@ -12,7 +12,6 @@ const API_URL = import.meta.env.VITE_BACKEND_URL || '';
 const AdminSettings = () => {
   const { t } = useTranslation(['admin', 'common']);
   const [formData, setFormData] = useState({
-    business_name: '',
     phone: '',
     email: '',
     address_line1: '',
