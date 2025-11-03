@@ -41,7 +41,6 @@ const AdminSettings = () => {
       
       // Load German version for editing
       setFormData({
-        business_name: data.business_name_de || '',
         phone: data.phone || '',
         email: data.email || '',
         address_line1: data.address_line1 || '',
