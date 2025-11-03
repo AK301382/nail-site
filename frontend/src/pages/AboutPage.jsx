@@ -224,7 +224,7 @@ const AboutPage = () => {
                   loading="lazy"
                 />
                 <img
-                  src="https://images.pexels.com/photos/3997379/pexels-photo-3997379.jpeg"
+                  src="/images/about/about-2.jpg"
                   alt="Manicure service"
                   className="rounded-2xl shadow-2xl w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
                   loading="lazy"
