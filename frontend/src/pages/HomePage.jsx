@@ -105,14 +105,14 @@ const HomePage = () => {
   const displayArtists = useMemo(() => artists?.slice(0, 3) || [], [artists]);
 
   const galleryImages = useMemo(() => [
-    '/images/slider/slider-2.jpg',
-    'https://images.unsplash.com/photo-1698308233758-d55c98fd7444',
-    'https://images.unsplash.com/photo-1617472556169-c5547fde3282',
-    'https://images.unsplash.com/photo-1571290274554-6a2eaa771e5f',
-    'https://images.pexels.com/photos/6429663/pexels-photo-6429663.jpeg',
-    '/images/slider/slider-3.jpg',
-    'https://images.unsplash.com/photo-1648844421727-cde6c4246b13',
-    'https://images.unsplash.com/photo-1648844421753-351afd50486a',
+    '/images/gallery/gallery-1.jpg',
+    '/images/gallery/gallery-2.jpg',
+    '/images/gallery/gallery-3.jpg',
+    '/images/gallery/gallery-4.jpg',
+    '/images/gallery/gallery-5.jpg',
+    '/images/gallery/gallery-6.jpg',
+    '/images/gallery/gallery-7.jpg',
+    '/images/gallery/gallery-8.jpg',
   ], []);
 
   const features = useMemo(() => [
