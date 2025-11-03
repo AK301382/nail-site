@@ -82,7 +82,7 @@ const HomePage = () => {
 
   const heroImages = useMemo(() => [
     '/images/slider/slider-1.jpg',
-    'https://images.unsplash.com/photo-1611821828952-3453ba0f9408',
+    '/images/slider/slider-2.jpg',
     'https://images.unsplash.com/photo-1648844421638-0655d00dd5ba',
   ], []);
 
@@ -105,7 +105,7 @@ const HomePage = () => {
   const displayArtists = useMemo(() => artists?.slice(0, 3) || [], [artists]);
 
   const galleryImages = useMemo(() => [
-    'https://images.unsplash.com/photo-1611821828952-3453ba0f9408',
+    '/images/slider/slider-2.jpg',
     'https://images.unsplash.com/photo-1698308233758-d55c98fd7444',
     'https://images.unsplash.com/photo-1617472556169-c5547fde3282',
     'https://images.unsplash.com/photo-1571290274554-6a2eaa771e5f',
