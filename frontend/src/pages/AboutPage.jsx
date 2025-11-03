@@ -218,7 +218,7 @@ const AboutPage = () => {
             <div className="grid grid-cols-2 gap-4" data-testid="story-images">
               <div className="space-y-4">
                 <img
-                  src="https://images.unsplash.com/photo-1595944024804-733665a112db"
+                  src="/images/about/about-1.jpg"
                   alt="Salon interior"
                   className="rounded-2xl shadow-2xl w-full h-72 object-cover hover:scale-105 transition-transform duration-300"
                   loading="lazy"
