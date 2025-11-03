@@ -252,7 +252,6 @@ async def create_artist(input: ArtistCreate):
         specialties_fr=spec_translations['fr'],
         years_experience=input.years_experience,
         image_url=input.image_url,
-        instagram=input.instagram
     )
     
     doc = artist_obj.model_dump()
