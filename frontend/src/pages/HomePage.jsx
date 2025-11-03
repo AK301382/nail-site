@@ -81,7 +81,7 @@ const HomePage = () => {
   const { data: artists, loading: artistsLoading } = useCachedApi('artists', api.getArtists);
 
   const heroImages = useMemo(() => [
-    'https://images.unsplash.com/photo-1595944024804-733665a112db',
+    '/images/slider/slider-1.jpg',
     'https://images.unsplash.com/photo-1611821828952-3453ba0f9408',
     'https://images.unsplash.com/photo-1648844421638-0655d00dd5ba',
   ], []);
