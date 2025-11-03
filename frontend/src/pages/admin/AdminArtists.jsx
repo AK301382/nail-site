@@ -58,8 +58,7 @@ const AdminArtists = () => {
       bio: artist.bio_de, // Load German version
       specialties: artist.specialties_de,
       years_experience: artist.years_experience,
-      image_url: artist.image_url,
-      instagram: artist.instagram || ''
+      image_url: artist.image_url
     });
     setIsEditOpen(true);
   };
