@@ -117,24 +117,6 @@ const AdminSettings = () => {
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-8">
-          {/* Business Name */}
-          <div className="bg-white rounded-lg shadow p-6 space-y-4">
-            <h2 className="text-xl font-semibold text-gray-900">
-              {t('settings.businessName')}
-            </h2>
-            <div className="space-y-2">
-              <Label htmlFor="business_name">{t('settings.businessName')}</Label>
-              <Input
-                id="business_name"
-                name="business_name"
-                value={formData.business_name}
-                onChange={handleChange}
-                placeholder="z.B. Fabulous Nails & Spa"
-              />
-            </div>
-          </div>
-
-          {/* Contact Information */}
           <div className="bg-white rounded-lg shadow p-6 space-y-4">
             <h2 className="text-xl font-semibold text-gray-900">
               {t('settings.contactInfo')}
