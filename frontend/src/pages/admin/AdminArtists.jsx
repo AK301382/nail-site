@@ -221,18 +221,15 @@ const AdminArtists = () => {
               />
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
-              <div className="space-y-2">
-                <Label htmlFor="years_experience">{t('artists.yearsExperience')}</Label>
-                <Input
-                  id="years_experience"
-                  type="number"
-                  value={formData.years_experience}
-                  onChange={(e) => setFormData({ ...formData, years_experience: parseInt(e.target.value) || 0 })}
-                  placeholder="5"
-                />
-              </div>
-
+            <div className="space-y-2">
+              <Label htmlFor="years_experience">{t('artists.yearsExperience')}</Label>
+              <Input
+                id="years_experience"
+                type="number"
+                value={formData.years_experience}
+                onChange={(e) => setFormData({ ...formData, years_experience: parseInt(e.target.value) || 0 })}
+                placeholder="5"
+              />
             </div>
 
             <ImageUploader
