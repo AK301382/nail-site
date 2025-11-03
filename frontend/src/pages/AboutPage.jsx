@@ -238,7 +238,7 @@ const AboutPage = () => {
                   loading="lazy"
                 />
                 <img
-                  src="https://images.unsplash.com/photo-1648844421638-0655d00dd5ba"
+                  src="/images/about/about-4.jpg"
                   alt="Nail designs"
                   className="rounded-2xl shadow-2xl w-full h-72 object-cover hover:scale-105 transition-transform duration-300"
                   loading="lazy"
