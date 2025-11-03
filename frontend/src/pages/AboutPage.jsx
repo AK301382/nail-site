@@ -232,7 +232,7 @@ const AboutPage = () => {
               </div>
               <div className="space-y-4 mt-8">
                 <img
-                  src="https://images.unsplash.com/photo-1611821828952-3453ba0f9408"
+                  src="/images/about/about-3.jpg"
                   alt="Nail art work"
                   className="rounded-2xl shadow-2xl w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
                   loading="lazy"
